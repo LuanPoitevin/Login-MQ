@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login com Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                 
+            </div>
+
+            <div id="form">
+                <h1>FORMULÁRIO</h1>
+                  <p>Seja bem vindo(a)!! Prencha os seguintes campos para acessar nosso site.</p>
+                  <form action="login.php" method="post">
+                    <section id="preenchimento">
+                        <div id="campo">
+                            <label for="iloguin" style="padding: 6px; border: none;" >Email:</label>
+                            <input type="email" name="login" id="ilogin" placeholder="Digite seu e-mail"  autocomplete="email" required maxlength="30">
+                        
+                        </div>
+                        <div id="campo">
+                             <label for="isenha" style="padding: 6px; border: none;">Senha:</label>
+                            <input type="password" name="senha" id="isenha" placeholder="Digite sua senha" autocomplete="current-password" minlength="8" maxlength="15" required>
+                        </div> 
+                        <input type="submit" value="Entrar">
+                        <a id="esq" href="esqueci.html">Esqueci minha senha</a>
+                        
+                    </section>
+                  </form>
+            </div>
+
+
+        </section>
+    </main>
+    
+</body>
+</html>
